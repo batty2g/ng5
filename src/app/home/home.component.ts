@@ -41,8 +41,8 @@ export class HomeComponent implements OnInit {
 
   // everything in here is ran when component is loaded
   ngOnInit() {
-    this.itemCount = this.goals.length;
     this.goals = this._data.goals;
+    this.itemCount = this.goals.length;
   }
 
   addItem() {
